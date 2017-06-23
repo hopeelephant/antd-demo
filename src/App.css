@@ -1,0 +1,80 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+.header{
+  clear: both;
+}
+.logo{
+  float: left;
+  line-height: 63px;
+  color: #fff;
+  font-size: 25px;
+}
+.clearfix:after{
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.clearfix{
+  zoom:1;
+}
+.fansUl li{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+.fansUl li:nth-child(1){
+  background: blue;
+}
+.fansUl li:nth-child(2){
+  background: red;
+}
+.fansUl li:nth-child(3){
+  background: #25c625;
+}
+.systemUl{
+  margin-top: 20px;
+}
+.systemUl li{
+  line-height: 40px;
+  border-bottom: 1px solid #ede9e9;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.systemUl li:nth-child(1){
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: none;
+}
+.systemUl li span{
+  float: left;
+}
+.systemUl li em{
+  float: right;
+  font-style: normal;
+}
+.systemUl li:nth-child(2){
+  font-weight: 600;
+  background:#ede9e9;
+  border-radius: 6px;
+}
+.Tendency{
+  margin-top: 80px;
+}
+.Tendency li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.smell{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
